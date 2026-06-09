@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import Image from "next/image";
 import { personalInfo } from "@/lib/data";
-import { FiBookOpen, FiCode, FiAward, FiLayers, FiZap, FiDatabase, FiCpu, FiTrendingUp, FiBarChart2 } from "react-icons/fi";
+import { FiBookOpen, FiCode, FiAward, FiLayers, FiZap, FiTrendingUp, FiBarChart2 } from "react-icons/fi";
 import {
   SiPython, SiJavascript, SiTypescript, SiKotlin, SiReact, SiNextdotjs,
   SiTailwindcss, SiNodedotjs, SiDjango, SiSpringboot, SiPostgresql,
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description: `Conoce más sobre ${personalInfo.name}, ${personalInfo.title}`,
 };
 
-const techIconMap: Record<string, React.ComponentType<any>> = {
+const techIconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   "Python": SiPython,
   "JavaScript": SiJavascript,
   "TypeScript": SiTypescript,

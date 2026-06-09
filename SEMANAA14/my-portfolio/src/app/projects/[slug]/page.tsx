@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import { projects } from '@/lib/data';
-import { FiArrowLeft, FiExternalLink, FiGithub, FiCode } from 'react-icons/fi';
+import { FiArrowLeft, FiExternalLink, FiGithub } from 'react-icons/fi';
 
 type Props = {
   params: Promise<{ slug: string }>;
