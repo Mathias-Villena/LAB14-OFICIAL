@@ -116,8 +116,8 @@ export default function AboutPage() {
 
   const education = [
     {
-      period: "2023 - Presente",
-      degree: "Diseño y Desarrollo de Software (Último Ciclo)",
+      period: "2023 - 2025",
+      degree: "Diseño y Desarrollo de Software (Egresado)",
       institution: "Instituto de Educación Superior TECSUP",
       location: "Lima, Perú",
       details: "Cursos relevantes: Desarrollo de Apps Web, Base de Datos Avanzada, Ingeniería de Requerimientos, Pruebas de Software, Programación Móvil, SAP, .NET, Inteligencia de Negocios (Python/R)."
@@ -167,7 +167,7 @@ export default function AboutPage() {
 
           <div className="text-slate-700 dark:text-gray-300 space-y-4 leading-relaxed text-sm md:text-base">
             <p>
-              Estudiante de último ciclo de Diseño y Desarrollo de Software en TECSUP, con experiencia práctica en automatización de procesos con Python, consumo de APIs REST y desarrollo fullstack.
+              Egresado de Diseño y Desarrollo de Software de TECSUP, con experiencia práctica en automatización de procesos con Python, consumo de APIs REST y desarrollo fullstack.
             </p>
             <p>
               Actualmente me desempeño automatizando flujos de datos y procesos CRM en entornos empresariales reales, reduciendo tareas repetitivas mediante código limpio y eficiente. Cuento con formación complementaria y en curso en <strong>Machine Learning, LLMs, Microsoft Fabric y Power BI</strong>.

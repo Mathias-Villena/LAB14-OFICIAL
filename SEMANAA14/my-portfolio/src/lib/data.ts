@@ -7,8 +7,9 @@ export const projects: Project[] = [
     description: 'Sistema inteligente de gestión de almacén e inventarios para PYMEs desarrollado como proyecto de tesis. Integra reconocimiento automático de productos mediante visión artificial y lectura de códigos de barras, una app móvil multiplataforma en Flutter y un portal web de administración.',
     image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1000&auto=format&fit=crop',
     technologies: ['Next.js', 'Flutter', 'Python', 'OpenCV', 'AWS', 'PostgreSQL', 'Machine Learning'],
-    demoUrl: '', // Próximamente disponible
+    demoUrl: 'https://stockella.vercel.app/login',
     githubUrl: 'https://github.com/Mathias-Villena',
+    apkUrl: '/stockella.apk',
     featured: true,
   },
   {
@@ -46,7 +47,7 @@ export const projects: Project[] = [
 export const personalInfo = {
   name: 'Mathias Josue Villena Gomez',
   title: 'Software Developer | Python · Automatización · IA Aplicada',
-  description: 'Estudiante de último ciclo de Diseño y Desarrollo de Software en TECSUP. Especializado en la automatización de procesos empresariales con Python y el desarrollo de aplicaciones fullstack modernas. Apasionado por la inteligencia artificial aplicada y el análisis de datos.',
+  description: 'Egresado de Diseño y Desarrollo de Software de TECSUP. Especializado en la automatización de procesos empresariales con Python y el desarrollo de aplicaciones fullstack modernas. Apasionado por la inteligencia artificial aplicada y el análisis de datos.',
   email: 'josuemathias03@gmail.com',
   phone: '934 841 065',
   location: 'San Juan de Lurigancho, Lima',

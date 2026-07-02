@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import { projects } from '@/lib/data';
-import { FiArrowLeft, FiExternalLink, FiGithub } from 'react-icons/fi';
+import { FiArrowLeft, FiExternalLink, FiGithub, FiDownload } from 'react-icons/fi';
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -136,6 +136,16 @@ export default async function ProjectDetailPage({ params }: Props) {
                   Despliegue Próximamente
                 </span>
               )
+            )}
+
+            {project.apkUrl && (
+              <a
+                href={project.apkUrl}
+                download
+                className="inline-flex items-center gap-2 bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white font-bold px-6 py-3.5 rounded-2xl shadow-lg shadow-emerald-500/20 transition-all duration-200"
+              >
+                Descargar App Móvil (APK) <FiDownload />
+              </a>
             )}
 
             {project.githubUrl && (

@@ -44,7 +44,7 @@ export default function Home() {
 
         {/* Subtitle (Typewriter cycle) */}
         <h2 className="text-xl md:text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600 dark:from-indigo-400 dark:to-purple-400 mb-6 font-display min-h-[36px]">
-          <Typewriter words={["Software Developer", "Python · Automatización · IA Aplicada", "Estudiante de Software en TECSUP"]} delay={2500} typingSpeed={80} />
+          <Typewriter words={["Software Developer", "Python · Automatización · IA Aplicada", "Egresado de Software de TECSUP"]} delay={2500} typingSpeed={80} />
         </h2>
 
         {/* Description */}

@@ -6,6 +6,7 @@ export interface Project {
   technologies: string[];
   demoUrl?: string;
   githubUrl?: string;
+  apkUrl?: string;
   featured: boolean;
 }
 
